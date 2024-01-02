@@ -1,0 +1,685 @@
+*{
+    box-shadow:0px;
+    margin:0px;
+}
+a{
+    text-decoration:none;
+    color:#D2D2D2;
+}
+hr{
+    color:#D2D2D2;
+}
+/* TOP-BAR---*/
+.top-bar{
+    height:45px;
+    width:1528px;
+    background-color:#222222;
+    display:flex;
+    text-align: center;
+    justify-content:space-around;
+    padding:0px 15px;
+}
+.top-right{
+    color:#D2D2D2;
+    font:16px Roboto,sans-serif;
+    font-weight:300;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    margin-top:10px;
+}
+
+.con_1{
+    height:32px;
+    width:150px;
+    border-right:1px solid #D2D2D2 ;
+}
+.con_2{
+    margin-left:2px;
+    height:32px;
+    width:150px;
+}
+/*---TOP-LEFT---*/
+.top-left{
+    height:44px;
+    width:800px;
+    padding:0px 20px;
+    display:flex;
+    color:#D2D2D2;
+    font:16px Roboto,sans-serif;
+    padding-right:100px;
+}
+.Img_1{
+  margin-top:20px;
+  margin-left:380px;
+  height:44px;
+  width:200px;
+  background-image:url('Sarva_Sikshana.jpeg');
+  background-size: cover;
+}
+/*---NAV-BAR---*/
+.nav-bar{
+    height:110px;
+    width:1480px;
+    color:#222222;
+    padding:10px 15px 10px;
+    display:flex;
+}
+.Img_3{
+    height:110px;
+    width:150px;
+    background-image:url('Karnataka_Sarkar(1).jpg');
+    background-size:cover;
+    margin-top:0px;
+    margin-left:150px;
+}
+/*---NAV-BAR-2*/
+.nav_bar_2{
+     height:60px;
+     width:1528px;
+     background-color:pink;
+     padding:0px 15px 10px 10px;
+     display:flex;
+     text-align:center;
+     justify-content:space-evenly;
+}
+.School{
+    font:14px Robot,sans-serif;
+    color:#222222;
+    margin-top:20px;
+    border-right:1px solid rgb(87, 82, 82);
+    padding:0px 22px;
+    transition:font-size;
+}
+.School:hover{
+    font-size:18px;
+}
+.About_Us{
+    margin-top:20px;
+    border:none;
+    padding:0px 22px 0px 22px;
+    border-right:1px solid rgb(87, 82, 82);
+}
+.documents{
+    margin-top:20px;
+    padding:0px 22px 0px;
+    border-right:1px solid rgb(87, 82, 82);
+}
+.a1{
+    color:#222222;
+}
+.Academics{
+    margin-top:20px;
+    padding:0px 22px 0px;
+    border-right:1px solid rgb(87, 82, 82);
+}
+.Right{
+    color:#222222;
+    margin-top:20px;
+    padding:0px 22px 0px;
+    border-right:1px solid rgb(87, 82, 82);
+}
+.Location{
+    margin-top:20px;
+    padding:0px 22px 0px;
+    border-right:1px solid rgb(87,82,82);
+    transition:color;
+}
+.Location:hover{
+    color:green;
+}
+.Contact{
+    margin-top:20px;
+    padding:0px 22px 0px;
+    transition:color
+}
+.Contact:hover{
+     color:blue;
+}
+.CO:hover{
+    color:blue;
+}
+/*---Main-Page---*/
+.Img_4{
+    margin-left:15px;
+    padding:0px 0px 10px 10px;
+    height:400px;
+    width:1480px;
+    background-image:url('School_1.jpg');
+    background-size:cover;
+}
+h2:hover{
+    color:red;
+}
+.Story{
+    display:flex;
+    justify-content:space-around;
+    background: linear-gradient(to bottom,pink 0%, #b7b6b6 100%);
+}
+.Story_1{
+    font:14px Roboto,sans-serif;
+    color:#222222;
+    margin-top:10px;
+    padding:10px 15px 10px 10px;
+    height:400px;
+    width:400px;
+    overflow:scroll;
+    background-color:#FCC63F;
+}
+.Story_1:hover{
+        font-size:16px;
+}
+.Story_2{
+    font:14px Roboto,sans-serif;
+    color:#222222;
+    margin-top:10px;
+    padding:10px 15px 10px 10px;
+    height:400px;
+    width:400px;
+    overflow:scroll;
+    background-color:#FCC63F;
+}
+.Story_2:hover{
+    font-size:16px;
+}
+/*---Latest News---*/
+.News{
+    width:1100px;
+    height:25px;
+    padding:5px 10px 5px 10px;
+    background-color:purple;
+    margin-left:200px;
+    border:1px solid black;
+    display:flex;
+}
+.Latest{
+    color:chartreuse;
+    font:16px Roboto,sans-serif;
+    font-weight:bold;
+    animation:Lat 5s linear 1s infinite normal;
+}
+@keyframes Lat{
+    0%{color:chartreuse;}
+    25%{color:aqua;}
+    50%{color:cornflowerblue;}
+    75%{color:deeppink;}
+    100%{color:gold;}
+}
+.Guide{
+    font:14px Roboto,sans-serif;
+    color:#D2D2D2;
+    margin-bottom:15px;
+}
+/*---COUNTING---NUMBERS---*/
+.Count{
+    height:60px;
+    width:500px;
+    background-color: black;
+    color:#D2D2D2;
+    font:20px Robot,sans-serif;
+    margin-left:450px;
+    display:flex;
+    justify-content: space-around;
+    box-shadow:.22em .25em .25em .25em;
+}
+/*---FOR--STUDENTS---*/
+@property --numb{
+    syntax:'<integer>';
+    initial-value:0;
+    inherits:true;
+}
+.Students{
+    transition:--numb 1s;
+    counter-reset:numb var(--numb);
+    padding:5px 20px 0px 10px;
+}
+.Students:hover{
+    --numb:500;
+     color:red;
+}
+.Students::after{
+    content:counter(numb);
+}
+/*---FOR--STAFF---*/
+@property --numb{
+    syntax:'<integer>';
+    initial-value:0;
+    inherit:true;
+}
+.Staff{
+    transition:--numb 1s;
+    counter-reset:numb var(--numb);
+    padding:5px 20px 0px 10px;
+}
+.Staff:hover{
+    --numb:150;
+    color:red;
+}
+.Staff::after{
+    content:counter(numb);
+}
+/*---SCHEMES---*/
+.Heading{
+    margin-top:20px;
+    font:20px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: silver .2em .2em .2em;
+    text-align:center;
+}
+.Other{
+    width:1530px;
+    height:450px;
+    display:flex;
+}
+.Facilities{
+    width:1000px;
+    padding:10px 20px 10px 20px;
+}
+.In_heading{
+    display:flex;
+}
+.Img_5{
+    height:300px;
+    width:300px;
+    background-image:url('Mid_day meals.jpg');
+    background-size:cover;
+    margin-top:15px;
+}
+.Img_5:hover{
+    border:2px solid rgb(231, 211, 31);
+    padding:10px 10px 10px 10px;
+}
+#Mid_1{
+    font:22px Roboto,sans-serif;
+    font-weight: bolder;
+    color:rgb(35, 219, 244);
+    padding:5px 0px 10px 0px;
+}
+#Mid_2{
+    width:350px;
+    font-size:16px ;
+    font-family:'Times New Roman', Times, serif;
+    color:#2a2626;
+}
+.Img_6{
+    height:300px;
+    width:300px;
+    background-image:url('Free_Uni.jpg');
+    background-size:cover;
+    margin-top:15px;
+}
+.Img_6:hover{
+    border:2px solid rgb(231, 211, 31);
+    padding:10px 10px 10px 10px;
+}
+.Img_7{
+    height:300px;
+    width:300px;
+    background-image:url('Rashtiya_Madhymika.jpg');
+    background-size:cover;
+    margin-top:15px;
+}
+.Img_7:hover{
+    border:2px solid rgb(231, 211, 31);
+    padding:10px 10px 10px 10px;
+}
+.Other_Scheme{
+    display:block;
+    height:450px;
+    width:420px;
+    margin:20px 10px 10px 25px;
+}
+.free_buses{
+    display:flex;
+    height:80px;
+    width:420px;
+}
+.Img_8{
+    margin-top:20px;
+    margin-left:15px;
+    height:80px;
+    width:80px;
+}
+.free{
+    margin-top:20px;
+    margin-left:5px;
+    font:16px Roboto,sans-serif;
+}
+#free_1{
+    padding:0px 0px 10px 10px;
+    font:14px Georgia, 'Times New Roman', Times, serif;
+    color:#222222;
+}
+.Img_9{
+    margin-top:20px;
+    margin-left:15px;
+    height:80px;
+    width:80px;
+}
+.Sambhrama{
+    margin-top:10px;
+    display:flex;
+    height:80px;
+    width:420px;
+}
+#Sam_1{
+    padding:0px 0px 10px 15px;
+    font:14px Georgia, 'Times New Roman', Times, serif;
+    color:#222222;
+}
+.Img_10{
+    margin-top:20px;
+    margin-left:15px;
+    height:80px;
+    width:420px;
+}
+.Medical{
+    margin-top:20px;
+    display:flex;
+    height:80px;
+    width:420px;
+}
+#Assist_1{
+    padding:0px 0px 10px 15px;
+    font:14px Georgia, 'Times New Roman', Times, serif;
+    color:#222222;
+}
+.Img_11{
+    margin-top:20px;
+    margin-left:15px;
+    height:80px;
+    width:420px;
+}
+.Safety{
+    margin-top:40px;
+    display:flex;
+    height:80px;
+    width:420px;
+}
+#Safety_1{
+    padding:0px 0px 10px 15px;
+    font-size:14px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:#222222;
+}
+/*---STAFF---*/
+.Staff_Members{
+    display:flex;
+    margin-left:10px;
+    height:370px;
+    width:1500px;
+}
+.In_Staff{
+    display:flex;
+}
+.HM{
+    padding:100px 10px 15px 30px;
+    display:block;
+}
+#HM_1{
+    font:30px courier bold;
+    color:#222222;
+}
+#HM_2{
+    font:16px courier;
+}
+.Faculty{
+    display:flex;
+    margin-left:150px;
+    margin-top:70px;
+    height:250px;
+    width:800px;
+}
+.Faculty:hover{
+    padding:20px 15px 20px 15px;
+    box-shadow:.2em .2em .2em .2em;
+}
+.Faculty_1{
+    display:flex;
+}
+.F_Img1{
+    margin-top:10px;
+    margin-left:10px;
+    height:100px;
+    width:100px;
+}
+#f_1{
+    padding:0px 10px 0px 10px;
+    margin-top:20px;
+    font:16px Roboto,sans-serif;
+    color:#222222;
+}
+.Faculty_2{
+    display:flex;
+}
+.F_Img2{
+    margin-top:15px;
+    margin-left:10px;
+    height:100px;
+    width:100px;
+}
+.Faculty_3{
+    display:flex;
+}
+.F_Img3{
+    margin-top:10px;
+    margin-left:100px;
+    height:100px;
+    width:100px;
+}
+.Faculty_4{
+    display:flex;
+}
+.F_Img4{
+    margin-top:15px;
+    margin-left:100px;
+    height:100px;
+    width:100px;
+}
+/*--LOCATION--*/
+.H_Location{
+    margin-top:20px;
+    font:20px Robot,sans-serif;
+    text-shadow: silver .2em .2em .2em;
+    color:green;
+    text-align:center;
+}
+/*---CONTACT--US---*/
+.H_Contact{
+    margin-top:30px;
+    font:20px Robot,sans-serif;
+    text-shadow: silver .2em .2em .2em;
+    color:blue;
+    text-align:center;
+}
+.Contact_Us{
+    margin-top:10px;
+    box-shadow:.2em .1em .2em .1em;
+    display:flex;
+    height:400px;
+    width:800px;
+    background-color:#FD9E7E;
+    margin-left:350px;
+}
+.Contact_form{
+    height:500px;
+    width:200px;
+}
+input{
+    height:30px;
+    width:230px;
+    margin-top:20px;
+    margin-left:25px;
+}
+textarea{
+    margin-top:20px;
+    margin-left:25px;
+    height:80px;
+    width:230px;
+}
+button{
+    height:40px;
+    width:100px;
+    text-align:center;
+    margin-top:20px;
+    margin-left:60px;
+    background-color:blue;
+    border-radius:20%;
+    border:2px solid black;
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    font-weight: bold;
+}
+.Getin{
+    margin-left:250px;
+    height:400px;
+    width:400px;
+    background-color:#EDBA5E;
+}
+.Reach{
+    margin-top:20px;
+    margin-left:10px;
+    color:white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:20px;
+}
+pre{
+    color:white;
+    margin-left:10px;
+    margin-top:10px;
+    font-size:15px;
+    font-family:monospace;
+}
+/*--POPULAR-- LINKS--*/
+.Popular{
+    margin-left:15px;
+    margin-top:15px;
+    height:150px;
+    width:1480px;
+    background-color: rgb(106, 237, 206);
+}
+.H_link1{
+    text-align:center;
+    margin-top:20px;
+    font-size:18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.a_1{
+    margin-left:650px;
+    text-align:center;
+    color:#db155b;
+}
+.H_link2{
+    text-align:center;
+    margin-top:20px;
+    font-size:18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.a_2{
+    margin-left:700px;
+    text-align:center;
+    color:#db155b;
+}
+/*--FOOTER---*/
+.footer{
+    margin-left:40px;
+    margin-top:30px;
+    height:500px;
+    width:1450px;
+}
+.footer_1{
+    margin-left:400px;
+    display:flex;
+    width:700px;
+    height:70px;
+    background-color:white;
+}
+.gov_footer{
+    margin-left:10px;
+}
+.my_gov{
+    margin-top:5px;
+    margin-left:10px;
+}
+.data{
+    margin-top:5px;
+    margin-left:10px;
+}
+.Gandhi{
+    margin-top:5px;
+    margin-left:10px;
+}
+.PM{
+    margin-top:5px;
+    margin-left:10px;
+}
+.NSP{
+    margin-top:5px;
+    margin-left:10px;
+}
+#Footer_2{
+    background-color:powderblue;
+    height:200px;
+    display:flex;
+}
+.footer_2{
+    margin-top:10px;
+    margin-left:500px;
+}
+.Menu{
+    font-style:italic;
+    margin-left:50px;
+}
+.Menu_1{
+    color:#db155b;
+    font-size:15px;
+    
+}
+.Information{
+    font-style:italic;
+    margin-left:50px;
+    margin-top:10px;
+}
+#Footer_3{
+    background-color:rgb(186, 186, 235);
+}
+.footer_3{
+    height:50px;
+    width:500px;
+    margin-left:500px;
+}
+.footer_4{
+    display:flex;
+    height:60px;
+    width:500px;
+    margin-left:500px;
+    display:flex;
+}
+.footer_5{
+    height:80px;
+    width:600px;
+    margin-left:450px;
+}
+.S_Add{
+    font-size:20px;
+    margin-left:10px;
+}
+#A_1{
+    margin-left:200px;
+}
+@media only screen and (max-width:800px)
+{
+    .top-bar{
+        width:100%;
+        height:100%;
+    }
+    .nav-bar{
+        width:100%;
+        height:100%;
+    }
+    .nav_bar_2{
+        width:100%;
+        height:100%;
+    }
+}

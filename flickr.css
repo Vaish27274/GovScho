@@ -1,0 +1,92 @@
+*{
+    margin:0px;
+    border:0px;
+}
+.head{
+    width:97%;
+    height:64px;
+    font:16px "Proxima Nova","helvetica neue";
+    background-color: #9AA39E;
+    padding:0px 24px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.logo{
+    width: 98px;
+    height:21.62px;
+    background-image:url("C:\Users\Vaishnavi Zendekar\.vscode\flickr-logo-2.png");
+    background-size:cover;
+}
+.log_in{
+    color:white;
+    height:20px;
+    width:60px;
+    font:16px "Proxima Nova","helvetica neue";
+    margin-top:14px;
+    font-weight:lighter;
+}
+.next-inspiration{
+    background-size:cover;
+    margin-top:0px;
+    width:1537px;
+    height:550px;
+
+}
+.content{
+    height:56px;
+    width:640px;
+    color:white;
+    font:56px "Proxima Nova","helvetica neue";
+    margin:37.52px 0px 5px;
+    display:flex;
+    justify-content:center;
+    text-align: center;
+    margin-left:400px;
+    margin-top:0px;
+}
+.sub_content{
+    height:64px;
+    width:640px;
+    color:white;
+    font:26px "Proxima Nova","helvetica neue";
+    margin:26px 0px 50px;
+    margin-left:400px;
+}
+.author{
+    height:44px;
+    width:951px;
+    color:white;
+    font:16px "Proxima Nova","helvetica neue";
+    margin-left:600px;
+}
+#foot{
+    height:64px;
+    width:1537px;
+    color:white;
+    background-color:#999999;
+    font:14px "Proxima Nova","helvetica neue";
+}
+#footcontent{
+    width:750px;
+    height:72px;
+    color:white;
+    font:16px "Proxima Nova","helvetica neue";
+}
+.last{
+    width:1537px;
+    height:37.8px;
+    color:white;
+    background-color: black;
+    font:14px "Proxima Nova","helvetica neue";
+    display:flex;
+    padding:0px 16px;
+}
+.last_content{
+    color:rgba(175, 170, 173, 0.918);
+    font-weight:bolder;
+    margin-top:5px;
+}
+a{
+    text-decoration:none;
+    color:white;
+}

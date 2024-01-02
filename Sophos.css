@@ -1,0 +1,124 @@
+.buffer{
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    border-top:10px solid blue;
+    animation-name:search;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+    animation-delay: 0s;
+    animation-timing-function:linear;
+    display:flex;
+    justify-content:center;
+}
+@keyframes search{
+    0%{rotate:360deg;}
+}
+.hero{
+    height:400px;
+    width:350px;
+    background-color: aqua;
+    text-align: center;
+    justify-content: center;
+    margin-left:600px;
+    box-shadow:.005em .05em .05em .005em;
+
+}
+.head{
+    width:350px;
+    height:48px;
+    margin-left:0px;
+    margin-top:0px;
+    background-color:blue;
+}
+.Sophos{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding:16px;
+    text-align: center;
+    color:white;
+}
+.panel{
+    margin-top:0px;
+    margin-left:0px;
+    height:355px;
+    width:350px;
+    background-color:white;
+}
+.access{
+    color:blue;
+    font-size:16px;
+    margin-top:0px;
+}
+.portal{
+    color:blue;
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top:140px;
+}
+input{
+    transform:border;
+}
+input:hover{
+    background-color: rgb(220, 220, 239);
+    border:2px solid blue;
+}
+button{
+    font-size: large;
+    color:white;
+    border:none;
+    height:30px;
+    width:300px;
+    background-color: rgb(8, 234, 136);
+    transition:ease-in-out;
+}
+/*After Sign-in*/
+.Sign_in
+{
+    height:400px;
+    width:350px;
+    background-color:white;
+    text-align: center;
+    justify-content: center;
+    margin-left:600px;
+    box-shadow:.005em .05em .05em .005em;
+}
+.Sopho{
+    width:350px;
+    height:48px;
+    margin-left:0px;
+    margin-top:0px;
+    background-color:blue;
+}
+.S1{
+    padding:1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color:white;
+}
+.panel_2{
+    margin-top:0px;
+    margin-left:0px;
+    height:355px;
+    width:350px;
+}
+.ID{
+    color:blue;
+    font-size:16px;
+    margin-top:0px;  
+}
+.one{
+    color:#5C5C5C;
+    font:13.6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-wrap:5px;
+}
+.two{
+    color:#5C5C5C;
+    font:13.6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-wrap:5px;
+}

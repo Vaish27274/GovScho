@@ -1,0 +1,121 @@
+*{
+    margin:0px;
+    box-sizing:border-box;
+}
+.Leave_form{
+    width:1528px;
+    height:450px;
+}
+a{
+    text-decoration:none;
+    color:#D2D2D2;
+}
+.top-bar{
+    height:45px;
+    width:1528px;
+    background-color:#222222;
+    display:flex;
+    text-align: center;
+    justify-content:space-around;
+    padding:0px 15px;
+}
+.top-right{
+    color:#D2D2D2;
+    font:16px Roboto,sans-serif;
+    font-weight:300;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    margin-top:10px;
+}
+
+.con_1{
+    height:32px;
+    width:150px;
+    border-right:1px solid #D2D2D2 ;
+}
+.con_2{
+    margin-left:2px;
+    height:32px;
+    width:150px;
+}
+/*---TOP-LEFT---*/
+.top-left{
+    height:44px;
+    width:800px;
+    padding:0px 20px;
+    display:flex;
+    color:#D2D2D2;
+    font:16px Roboto,sans-serif;
+    padding-right:100px;
+}
+.Img_1{
+  margin-top:0px;
+  margin-left:380px;
+  height:44px;
+  width:200px;
+  background-image:url('Sarva_Sikshana.jpeg');
+  background-size: cover;
+}
+.H_1{
+    text-align:center;
+    color:#222222;
+    font-size:20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow:silver .2em .2em .2em .2em;
+}
+.Leave_Apply{
+    border-radius:5%;
+    box-shadow:.1em .1em .1em .1em;
+    background-color: rgb(165, 174, 174);
+    margin-top:6px;
+    margin-left:500px;
+    height:350px;
+    width:500px;
+}
+.L_1{
+    padding:0px 0px 0px 10px;
+}
+.Name{
+    padding:10px 10px 10px 10px;
+    display:flex;
+}
+input{
+    height:30px;
+    width:200px;
+    border:none;
+    margin-left:35px;
+}
+input:hover{
+    background-color: rgb(110, 213, 239);
+    border:2px solid black;
+}
+.Email{
+    padding:10px 10px 10px 10px;
+    display:flex;
+}
+.Reason{
+      padding:10px 10px 10px 10px;
+      display:flex;
+}
+.Start{
+    padding:10px 10px 10px 10px;
+    display:flex;
+}
+.End{
+    padding:10px 10px 10px 10px;
+    display:flex;
+}
+/*----LEAVE---APPROVE---*/
+.Leave_Approve{
+    margin-top:10px;
+    height:200px;
+    width:1528px;
+    background-color: #c7e0a6;
+}
+th td{
+    padding-top:10px;
+    padding-left:20px;
+    padding-bottom:10px;
+    padding-right:20px;
+}

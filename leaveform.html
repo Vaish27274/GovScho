@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leave Form</title>
+    <link rel="stylesheet"href="leaveform.css">
+</head>
+<body>
+   <div class="Leave_form">
+    <div class="top-bar">
+        <div class="top-right">
+        <div class="con_1"><p id="one"><a href="https://dsel.education.gov.in/#">Government of India</p></a></div>
+        <div class="con_2"><p id="two"><a href="https://dsel.education.gov.in/#">Ministry of Education</p></a></div>
+        </div>
+        <div class="top-left">
+        <div class="con_3"style="margin-top:10px;"><p id="three">English</p></div>
+        <div class="con_4"style="margin-top:10px;margin-left:20px;">
+        </div>
+        <div class="Img_1"></div>
+        </div>
+    </div>
+    <div class="H_1"><h1>Apply for leave</h1></div>
+    <form>
+    <div class="Leave_Apply">
+        <div class="Name">
+            <h2>Name:</h2>
+        <div class=L_1><input type="text"placeholder="Name"required></div>
+        </div>
+        <div class="Email">
+            <h2>E-Mail:</h2>
+            <input type="email"placeholder="E-Mail"required>
+        </div>
+        <div class="Reason">
+            <h2>Reason:</h2>
+               <select style="margin-left:32px;">
+                <option>Select a reason</option>
+                <option>EL/CL</option>
+                <option>Personal</option>
+               </select>
+        </div>
+        <div class="Start">
+            <h2>Start Date:</h2>
+            <input type="date"placeholder="DD/MM/YYYY"required style="margin-left:5px;">
+        </div>
+        <div class="End">
+            <h2>End Date:</h2>
+            <input type="date"placeholder="DD/MM/YYYY"required style="margin-left:14px;">
+        </div>
+      <input type="reset"value="Reset"style="height:30px;width:80px;margin-left:150px;background-color:orange;">
+      <input type="Submit"value="Submit"style="height:30px;width:80px;background-color:lime;margin-left:5px;">
+    </div>
+    </form>
+    <!---LEAVE---APPROVE--->
+<div class="Leave_Approve">
+    <div class="H_2"><h1>Leave Approve</h1></div>
+    <div class="Approve"style="margin-left:20px;margin-top:10px;">
+        <table border="1px"cellpadding="10px">
+            <tr>
+                <th>S.No</th>
+                <th>Leave Type</th>
+                <th>From Date</th>
+                <th>To Date</th>
+                <th>Requested Days</th>
+                <th>Current Status</th>
+                <th>Comments</th>
+                <th>Update</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td><input type="text"style="background-color:#c6e3b4;"></td>
+                <td><input type="text"style="background-color:#c6e3b4;"></td>
+                <td><input type="text"style="background-color:#c6e3b4;"></td>
+                <td></td>
+                <td>
+                    <select>
+                        <option>Pending</option>
+                        <option>Accept</option>
+                        <option>Reject</option>
+                    </select>
+                </td>
+                <td><input type="text"placeholder="Write your comments here"style="background-color:white;"></td>
+                <td><button style="background-color:lime;">Accept</button><button style="background-color:orange;;">Reject</button></td>
+            </tr>
+        </table>
+    </div>
+    
+</div>
+</body>
+</html>
